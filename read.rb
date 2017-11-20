@@ -1,4 +1,4 @@
-# read.rb
+f# read.rb
 
 filename = ARGV.first
 file = open(filename)
