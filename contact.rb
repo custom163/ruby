@@ -27,8 +27,8 @@ while answer.downcase != "n"
   answer = ask("Add another contact? (y/n)")
 end
 
-puts "-" * 10
 
+puts "-" * 10
 contact_list.each do |contact|
   puts "Name: #{contact["name"]}"
   if contact["phone_numbers"].size > 0
@@ -38,4 +38,3 @@ contact_list.each do |contact|
   end
   puts "-----\n"
 end
-
